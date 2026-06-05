@@ -1,0 +1,43 @@
+* {
+  box-sizing:border-box;
+  margin:0px;
+  padding:0px;
+}
+html body{
+  background-color: skyblue;
+}
+.container{
+  margin:0;
+  height:100%;
+  background-color: white;
+}
+
+/* Single centered element */
+.experiment1 {
+  width:918px;
+  height:72px;
+  margin: 20% auto;
+  background-color: white;
+}
+
+.experiment1 svg path{
+  fill: transparent;
+  stroke: blue;
+  stroke-width: 1.2;
+  stroke-dasharray: 270;
+  stroke-dashoffset: 270;
+  animation: textAnimation 4s ease-in forwards;
+}
+
+ @keyframes textAnimation {
+  0% {
+    stroke-dashoffset: 270;
+  }
+  50% {
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: blue;
+  }
+} 
