@@ -9,10 +9,10 @@ html body{
 .container{
   margin:0;
   height:100%;
-  background-color: white;
+  background-color: skyblue;
 }
 
-/* Single centered element */
+/* ***************** START 1 ***************** */
 .experiment1 {
   width:918px;
   height:72px;
@@ -26,7 +26,7 @@ html body{
   stroke-width: 1.2;
   stroke-dasharray: 270;
   stroke-dashoffset: 270;
-  animation: textAnimation 4s ease-in forwards;
+  animation: textAnimation 3s ease-in forwards;
 }
 
  @keyframes textAnimation {
@@ -41,3 +41,32 @@ html body{
     fill: blue;
   }
 } 
+ /* ***************** END 1 ***************** */
+
+
+
+ /* ***************** START 2 ***************** */
+ .experiment2 {
+
+  background-color: white;
+}
+
+.experiment2 svg path{
+  fill: transparent;
+  stroke: blue;
+  stroke-width: 1.2;
+  stroke-dasharray: 170;
+  stroke-dashoffset: 170;
+
+  animation: textAnimation2 5s ease-in-out forwards;
+}
+
+@keyframes textAnimation2 {
+  0% {
+    stroke-dashoffset: 170;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke: rgb(0, 0, 161);
+  }
+}  
