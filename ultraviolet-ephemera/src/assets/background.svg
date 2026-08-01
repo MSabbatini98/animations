@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" fill="none">
+  <path
+    fill="url(#a)"
+    fill-rule="evenodd"
+    d="M-180 430c120-90 250-20 360-55 130-42 220-150 330-70 120 85 60 230 110 340 35 80 120 130 150 220 45 120 130 210 90 330-40 120-150 220-280 190-150-35-210-230-360-190-160 40-170 300-330 270-130-25-90-240-120-370-20-90 60-180 30-270-35-110-160-150-150-270 5-100 70-170 170-195Z"
+    opacity=".16"
+  />
+
+  <path
+    fill="url(#b)"
+    fill-rule="evenodd"
+    d="M1120 120c150-20 280-150 410-90 180 80 350 220 330 410-20 190-250 260-400 390-130 110-220 290-390 260-160-30-170-250-290-360-140-120-390-100-410-270-20-170 240-240 400-310 110-50 230-20 350-30Z"
+    opacity=".16"
+  />
+
+  <path
+     fill="url(#b)" 
+     fill-rule="evenodd" 
+     d="M-120 180c80-110 250-150 390-120 120 25 210 100 330 90 140-10 260 40 290 150 35 130-80 230-220 250-120 20-220-40-340-30-150 15-330 40-430-70-90-100-90-190-20-270Z" 
+     opacity=".16"
+  />
+
+  <path
+    fill="url(#d)"
+    fill-rule="evenodd"
+    d="M250 760c100-80 230-70 330 0 90 65 120 190 40 280-90 100-260 100-380 30-110-65-140-210 10-310Z"
+    opacity=".18"
+  />
+
+  <defs>
+    <linearGradient id="a" x1="100" y1="1000" x2="1100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B3D91"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <linearGradient id="b" x1="300" y1="1000" x2="1500" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+
+    <linearGradient id="c" x1="200" y1="200" x2="1000" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#1E40AF"/>
+    </linearGradient>
+
+    <linearGradient id="d" x1="300" y1="700" x2="900" y2="1100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#93C5FD"/>
+    </linearGradient>
+  </defs>
+</svg>

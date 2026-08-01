@@ -1,0 +1,56 @@
+---
+import Welcome from '../components/Welcome.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+	<Welcome />
+
+	<section class="animation">
+		<a href="/word-outline">
+			Word outline
+		</a>
+	</section>
+
+	<section class="animation">
+		<a href="//">
+			border shine
+		</a>
+	</section>
+
+	<section class="animation">
+		<a href="//">
+			image reflection/gloss
+		</a>
+	</section>
+
+	<section class="animation">
+		<a href="//">
+			neon on/ neon off
+		</a>
+	</section>
+</Layout>
+
+
+<style>
+	.animation {
+			display: flex;
+			align-items: start;
+			flex-direction: column;
+			justify-content: start;
+			max-width:80%;
+			height: max-content;
+
+			padding: 16px;
+			margin: 24px auto;
+
+			border: solid 3px blue;
+			border-radius: 25px;
+		}
+</style>
+
+<style is:global>
+.animation_intro{
+	
+}
+</style>	

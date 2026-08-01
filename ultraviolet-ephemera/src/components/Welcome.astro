@@ -1,0 +1,67 @@
+---
+import logo from '../assets/LOGO.avif';
+import background from '../assets/background.svg';
+---
+
+<section id="container_intro">
+	<img id="background" src={background.src} alt="" fetchpriority="high" />
+	<main>
+		<section id="hero">
+			<a id="logo" href="/"
+				><img src={logo.src} alt="Astro Homepage" /></a
+			>
+			<h1>
+				Welcome to my <span>animation archieves</span>: a collection of experiments and creative explorations - built to discover, play, store and inspire.
+			</h1>
+		</section>
+	</main>
+</section>
+
+<style>
+	#background {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		filter: blur(100px);
+	}
+
+	#container_intro {
+		font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+	}
+
+	main {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	#hero {
+		display: flex;
+		align-items: start;
+		flex-direction: column;
+		justify-content: start;
+		max-width:80%;
+		height: max-content;
+
+		padding: 16px;
+		margin: 24px;
+
+		border: solid 3px blue;
+		border-radius: 25px;
+	}
+
+	#logo {
+		margin: 24px auto;
+	}
+
+
+	h1 {
+		font-size: 28px;
+		text-align: center;
+	}
+	
+
+</style>
