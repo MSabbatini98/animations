@@ -1,17 +1,31 @@
+---
+import logo from '../assets/LOGO.avif';
+---
+
 <!doctype html>
 <html lang="en">
+
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Animation archieves</title>
 	</head>
+
 	<body>
+	<header>
+		<a id="logo" href="/">
+			<img src={logo.src} alt="Astro Homepage" />
+		</a>
+	</header>
+
 		<slot />
 	</body>
+
 </html>
+
 
 <style>
 	html,
@@ -20,4 +34,9 @@
 		width: 100%;
 		height: 100%;
 	}
+
+	header {
+    text-align: center;
+    margin: 24px auto;
+}
 </style>

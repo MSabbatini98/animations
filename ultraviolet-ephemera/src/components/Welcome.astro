@@ -6,10 +6,8 @@ import background from '../assets/background.svg';
 <section id="container_intro">
 	<img id="background" src={background.src} alt="" fetchpriority="high" />
 	<main>
+			
 		<section id="hero">
-			<a id="logo" href="/"
-				><img src={logo.src} alt="Astro Homepage" /></a
-			>
 			<h1>
 				Welcome to my <span>animation archieves</span>: a collection of experiments and creative explorations - built to discover, play, store and inspire.
 			</h1>
@@ -25,7 +23,7 @@ import background from '../assets/background.svg';
 		width: 100%;
 		height: 100%;
 		z-index: -1;
-		filter: blur(100px);
+		filter: blur(10px);
 	}
 
 	#container_intro {
@@ -54,6 +52,7 @@ import background from '../assets/background.svg';
 	}
 
 	#logo {
+		display: flex;
 		margin: 24px auto;
 	}
 
